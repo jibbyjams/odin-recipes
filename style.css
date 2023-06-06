@@ -1,0 +1,48 @@
+h1{
+    text-shadow: 2px 3px 8px darkred;
+    text-underline-position: below;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: black;
+    color: red;
+}
+
+ul, ol{
+    background: red;
+    color: black;
+}
+
+h1, h2, h3{
+    text-align: center;    
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-style: solid;
+    border-color: red;
+  }
+
+  /* unvisited link */
+a:link {
+    color: purple;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: purple;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: pink;
+  }
